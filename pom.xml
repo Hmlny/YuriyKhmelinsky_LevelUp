@@ -39,6 +39,33 @@
                 <test.suite.name>allTests.xml</test.suite.name>
             </properties>
         </profile>
+        <profile>
+            <id>other-tests</id>
+            <properties>
+                <test.suite.name>otherTests.xml</test.suite.name>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>sub-div-tests</id>
+            <properties>
+                <test.suite.name>subAndDivTests.xml</test.suite.name>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>sum-mult-tests</id>
+            <properties>
+                <test.suite.name>sumAndMultiTests.xml</test.suite.name>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>trigonometric-tests</id>
+            <properties>
+                <test.suite.name>trigonometryTests.xml</test.suite.name>
+            </properties>
+        </profile>
     </profiles>
 
     <dependencies>
