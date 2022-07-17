@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="all tests">
+    <test name="all tests">
+        <classes>
+            <class name="ru.levelup.at.homework2.SumCalcTest"/>
+            <class name="ru.levelup.at.homework2.SubCalcTest"/>
+            <class name="ru.levelup.at.homework2.MultiCalcTest"/>
+            <class name="ru.levelup.at.homework2.DivCalcTest"/>
+            <class name="ru.levelup.at.homework2.PowCalcTest"/>
+            <class name="ru.levelup.at.homework2.SinCalcTest"/>
+        </classes>
+    </test>
+</suite>
